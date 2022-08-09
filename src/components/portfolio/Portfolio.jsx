@@ -27,7 +27,7 @@ const Portfolio = () => {
       description:
         'App Time using react and weather api rest',
       technologies: 'React | JavaScript',
-      link: 'https://fakestore-metrics.netlify.app/',
+      link: 'https://visionary-frangollo-8d6888.netlify.app',
       github: 'https://github.com/alearigth/appTime',
     },
     {
