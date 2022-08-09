@@ -8,7 +8,7 @@
 
 ## Live Demo
 
-- [Live Demo](https://chic-biscochitos-af5267.netlify.app/)
+- [Live Demo](https://portfolio-react-alearigth.netlify.app)
 
 
 # Getting Started
@@ -27,6 +27,7 @@
 
 - Clone this [repository] 
 - ```
+  git clone https://github.com/alearigth/portfolio-react-alearigth.git
   ```
 
 - Navigate to `cd portfolio---react`  directory.
@@ -43,7 +44,7 @@
 
 ## Author
 
-:men: **Alearigth**
+ **Alearigth**
 
 - [GitHub](https://github.com/alearigth)
 - [LinkedIn](https://www.linkedin.com/in/alejandro-mogrovejo-martinez-316686237/)
