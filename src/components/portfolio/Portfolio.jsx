@@ -4,7 +4,7 @@ import IMG2 from '../../assets/todo.jpeg';
 import IMG3 from '../../assets/crypto.jpeg';
 import IMG4 from '../../assets/weather.jpeg';
 import IMG5 from '../../assets/emojis.jpeg';
-import IMG6 from '../../assets/serpiente.jpeg';
+import IMG6 from '../../assets/rick.jpeg';
 
 import './portfolio.css';
 
@@ -61,13 +61,13 @@ const Portfolio = () => {
     },
     {
       id: 6,
-      title: 'Snake',
+      title: 'Rick and Morty',
       img: IMG6,
       description:
-        'the classic snake game using vanilla javascript and html',
-      technologies: 'JavaScript | Css | Html',
-      link: 'https://github.com/alearigth/juegoSnake',
-      github: 'https://github.com/alearigth/juegoSnake',
+        'consuming the rick and morty api in react',
+      technologies: 'JavaScript | Bootstrap | React',
+      link: 'https://beautiful-bavarois-6ba24d.netlify.app',
+      github: 'https://github.com/alearigth/rick-morty',
     },
   ];
 
