@@ -1,7 +1,7 @@
 import React from 'react';
 import IMG1 from '../../assets/movie.jpeg';
 import IMG2 from '../../assets/todo.jpeg';
-import IMG3 from '../../assets/crypto.jpeg';
+import IMG3 from '../../assets/fox.jpeg';
 import IMG4 from '../../assets/weather.jpeg';
 import IMG5 from '../../assets/emojis.jpeg';
 import IMG6 from '../../assets/rick.jpeg';
@@ -41,13 +41,13 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      title: 'Crypto',
+      title: 'Foxbel-Music',
       img: IMG3,
       description:
-        'Fully responsive interactive website built based on Figma design',
-      technologies: 'JavaScript | CSS',
-      link: 'https://github.com/alearigth/proyectoFront',
-      github: 'https://github.com/alearigth/proyectoFront',
+        'This is a music app called foxbel - music, implemented in vite using the react library',
+      technologies: 'react | styled Components',
+      link: 'https://alearigth.github.io/music-foxbel/',
+      github: 'https://github.com/alearigth/music-foxbel',
     },
     {
       id: 5,
