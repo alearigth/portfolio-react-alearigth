@@ -1,8 +1,8 @@
-import React from 'react';
-import { FaAward } from 'react-icons/fa';
-import { VscFolderLibrary } from 'react-icons/vsc';
-import ME from '../../assets/me.png';
-import './intro.css';
+import React from "react";
+import { FaAward } from "react-icons/fa";
+import { VscFolderLibrary } from "react-icons/vsc";
+import ME from "../../assets/me.png";
+import "./intro.css";
 
 const Intro = () => {
   return (
@@ -20,22 +20,26 @@ const Intro = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>1 year</small>
+              <small>1 + years</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>5+ Completed Projects</small>
+              <small>7+ Completed Projects</small>
             </article>
           </div>
-          <p>I’ve spent the last several months in a remote environment, working with HTML, CSS, JavaScript, building everything from landing pages to APIs.
-          looking for my first remote work experience. I am always willing to learn and improve my technical and soft skills.
+          <p>
+            I’ve spent the last several months in a remote environment, working
+            with HTML, CSS, JavaScript, React, building everything. I am always
+            willing to learn and improve my technical and soft skills.
           </p>
-          <a href="#contact" className="btn btn-primary">Let's Talk</a>
+          <a href="#contact" className="btn btn-primary">
+            Let's Talk
+          </a>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Intro
+export default Intro;
