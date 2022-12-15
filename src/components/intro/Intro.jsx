@@ -29,9 +29,9 @@ const Intro = () => {
             </article>
           </div>
           <p>
-            I’ve spent the last several months in a remote environment, working
-            with HTML, CSS, JavaScript, React, building everything. I am always
-            willing to learn and improve my technical and soft skills.
+            I’ve spent the last several months in a remote environment working
+            with HTML CSS JavaScript TypeScript React building everything. I am
+            always willing to learn and improve my technical and soft skills.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

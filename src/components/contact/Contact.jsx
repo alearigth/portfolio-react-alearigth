@@ -1,7 +1,7 @@
-import React, { useRef, useState } from 'react';
-import emailjs from '@emailjs/browser';
-import { MdOutlineEmail } from 'react-icons/md';
-import './contact.css';
+import React, { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
+import { MdOutlineEmail } from "react-icons/md";
+import "./contact.css";
 
 const Contact = () => {
   const [message, setMessage] = useState(false);
@@ -11,10 +11,10 @@ const Contact = () => {
     setMessage(true);
     emailjs
       .sendForm(
-        'service_hqk3a9f',
-        'template_8hds3rr',
+        "service_hqk3a9f",
+        "template_8hds3rr",
         formRef.current,
-        'Rv_VYwREUkSzK9Ekn'
+        "Rv_VYwREUkSzK9Ekn"
       )
       .then(
         (result) => {
@@ -40,7 +40,7 @@ const Contact = () => {
           <article className="contact__option">
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
-            <h5>diciembre.09.98@gmail.com</h5>
+            <h5>doce.09.98@gmail.com</h5>
             <a href="mailto:diciembre.09.98@gmail.com">Send a message</a>
           </article>
         </div>
